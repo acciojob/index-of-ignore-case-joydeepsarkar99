@@ -1,5 +1,8 @@
 function indexOfIgnoreCase(s1, s2) {
-	return s1.toUpperCase().search(s2.toUpperCase())
+	if(s1.length == 0 || s2.length == 0){
+		return -1
+	}
+	return s1.toUpperCase().indexOf(s2.toUpperCase())
 }
 
 Please do not change the code below
