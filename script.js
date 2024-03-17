@@ -1,7 +1,5 @@
 function indexOfIgnoreCase(s1, s2) {
-  let newS1 = s1.toUpperCase()
-	let newS2 = s2.toUpperCase()
-	return newS1.search(newS2)
+	return s1.toUpperCase().search(s2.toUpperCase())
 }
 
 Please do not change the code below
